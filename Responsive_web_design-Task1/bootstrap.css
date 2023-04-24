@@ -3,6 +3,7 @@
 
 *{
     /* background-color: antiquewhite; */
+    place-content: center;
 }
 
 .header-font{
@@ -89,13 +90,16 @@
     /* border: 2px solid rebeccapurple; */
     display: grid;
     grid-template-columns: 300px 625px;
+    background-color: rgb(181, 184, 182);
+    
 }
 
 .column {
     /* flex: 50%; */
   padding: 10px;
   height: 700px;
-  background-color: rgb(181, 184, 182);
+  width: 100%;
+  /* background-color: rgb(181, 184, 182); */
     /* border: 1px solid rgb(125, 123, 128); */
     /* height: 300px; Should be removed. Only for demonstration */
 }
